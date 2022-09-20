@@ -1580,10 +1580,22 @@ ul.links li a::before,
         padding-top:  0px;
         margin-top: 0px !important;
     }
+
+  
 }
 
 .about {
     margin-top: -100px
+
+    
+}
+@media only screen and (max-width: 680px) {
+    .showMobile{
+        display: block;
+    }
+    .hiddenMobile{
+        display: none;
+    }
 }
 @media only screen and (max-width: 480px) {
 
